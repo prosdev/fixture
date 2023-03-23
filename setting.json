@@ -1,0 +1,1396 @@
+{
+  "data": [
+    {
+      "slug": "allow_amazon_dsp",
+      "category": "tag",
+      "value": null,
+      "field": {
+        "type": "boolean",
+        "label": "",
+        "name": "Automatically place the Amazon DSP sync img tag onto your site?",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Check this box to allow the Lytics JavaScript Tag to pass the current visitors unique identifier, _uid, to Amazon DSP for improved identity resolution."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "allow_bot_agents",
+      "category": "API",
+      "value": null,
+      "field": {
+        "type": "boolean",
+        "label": "",
+        "name": "Allow Event Collection from Bots",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Check this box to enable the event collection endpoint to collect events from endusers who have identified themselves as bots according to their User Agent header."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "allow_criteo",
+      "category": "tag",
+      "value": null,
+      "field": {
+        "type": "boolean",
+        "label": "",
+        "name": "Automatically place the Criteo sync img tag onto your site?",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Check this box to allow the Lytics JavaScript Tag to pass the current visitors unique identifier, _uid, to Criteo and receive a unique Criteo GUM ID for improved identity resolution."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "allow_google_dv360",
+      "category": "tag",
+      "value": null,
+      "field": {
+        "type": "boolean",
+        "label": "",
+        "name": "Automatically place the The Google DV360 sync img tag onto your site?",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Check this box to allow the Lytics JavaScript Tag to pass the current visitors unique identifier, _uid, to Google DV360 and receive a unique DV360 ID for improved identity resolution."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "allow_krux",
+      "category": "tag",
+      "value": null,
+      "field": {
+        "type": "boolean",
+        "label": "",
+        "name": "Automatically place the Krux sync img tag onto your site?",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Check this box to allow the Lytics JavaScript Tag to pass the current visitors unique identifier, _uid, to Krux for improved identity resolution."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "allow_lotame",
+      "category": "tag",
+      "value": null,
+      "field": {
+        "type": "boolean",
+        "label": "",
+        "name": "Automatically place the Lotame sync img tag onto your site?",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Check this box to allow the Lytics JavaScript Tag to pass the current visitors unique identifier, _uid, to Lotame for improved identity resolution."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "allow_pathfora",
+      "category": "tag",
+      "value": true,
+      "field": {
+        "type": "boolean",
+        "label": "",
+        "name": "Allow Pathfora?",
+        "sort_order": 0,
+        "default": false,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Check this box to allow the Lytics JavaScript Tag to automatically add the Pathfora personalization library to your site (default). Uncheck to disable any and all Pathfora powered web based personalization."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "allow_taboola",
+      "category": "tag",
+      "value": null,
+      "field": {
+        "type": "boolean",
+        "label": "",
+        "name": "Automatically place the Taboola sync img tag onto your site?",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Check this box to allow the Lytics JavaScript Tag to pass the current visitors unique identifier, _uid, to Taboola and receive a unique Taboola ID for improved identity resolution."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "allow_thetradedesk",
+      "category": "tag",
+      "value": null,
+      "field": {
+        "type": "boolean",
+        "label": "",
+        "name": "Automatically place the The Trade Desk sync img tag onto your site?",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Check this box to allow the Lytics JavaScript Tag to pass the current visitors unique identifier, _uid, to The Trade Desk and receive a unique Trade Desk ID for improved identity resolution."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "allow_yahoo",
+      "category": "tag",
+      "value": null,
+      "field": {
+        "type": "boolean",
+        "label": "",
+        "name": "Automatically place the Yahoo sync img tag onto your site?",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Check this box to allow the Lytics JavaScript Tag to pass the current visitors unique identifier, _uid, to Yahoo and receive a unique Yahoo ID for improved identity resolution."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "alloweventblock",
+      "category": "tag",
+      "value": 1,
+      "field": {
+        "type": "int",
+        "label": "",
+        "name": "Allow event block",
+        "sort_order": 0,
+        "default": 1,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "0 = off; 1 = allow with campaign; 2 = on permanently"
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "api_ip_blacklist",
+      "category": "API",
+      "value": null,
+      "field": {
+        "type": "[]string",
+        "label": "",
+        "name": "Blocklist IP CIDR ranges for all API endpoints",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "validation_rule": "cidr",
+        "user_config_disabled": false,
+        "description": "Provide a list of valid CIDR Ranges. For any API endpoint ensure it is not coming from an IP in given disallowed ranges."
+      },
+      "can_be_assigned": false,
+      "subject": "sysadmin"
+    },
+    {
+      "slug": "api_ip_whitelist",
+      "category": "API",
+      "value": null,
+      "field": {
+        "type": "[]string",
+        "label": "",
+        "name": "Allowlist IP CIDR ranges for all API endpoints that require authorization",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "validation_rule": "cidr",
+        "user_config_disabled": false,
+        "description": "Provide a list of valid CIDR Ranges. For any API endpoint that requires auth, ensure it is coming from an IP in given allowed ranges."
+      },
+      "can_be_assigned": false,
+      "subject": "sysadmin"
+    },
+    {
+      "slug": "api_seg_scan_limit",
+      "category": "API",
+      "value": null,
+      "field": {
+        "type": "int",
+        "label": "",
+        "name": "Segment scan entity limit per page",
+        "sort_order": 0,
+        "default": 100,
+        "optional": false,
+        "editable": false,
+        "validation_exprs": [
+          "value < 1000"
+        ],
+        "user_config_disabled": false,
+        "description": "Max number of entities to be returned per page of Segment Scan API."
+      },
+      "can_be_assigned": false,
+      "subject": "sysadmin"
+    },
+    {
+      "slug": "api_whitelist_domains",
+      "category": "API",
+      "value": [
+        "test.getlytics.com",
+        "getlytics.com",
+        "lytics.io",
+        "activate.getlytics.com",
+        "meethodor.com",
+        "localhost",
+        "localhost:8080",
+        "localhost:9778",
+        "getlyticsstage.appspot.com",
+        "lytics.github.io",
+        "192.168.115.161:5000",
+        "learn.lytics.com"
+      ],
+      "field": {
+        "type": "[]string",
+        "label": "",
+        "name": "Allowlist domains public API",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "List of domains to allow for Public Personalization API regarding referrer."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "api_whitelist_fields",
+      "category": "API",
+      "value": [
+        "first_name",
+        "last_name",
+        "email",
+        "sal",
+        "zip",
+        "country",
+        "city",
+        "state",
+        "segment",
+        "web_cta",
+        "personalization_flags"
+      ],
+      "field": {
+        "type": "[]string",
+        "label": "",
+        "name": "Allowlist fields for public API",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "List of fields to allow for Public Personalization API."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "cloudconnect_ctx_cols_limit",
+      "category": "cc_limits",
+      "value": null,
+      "field": {
+        "type": "int",
+        "label": "",
+        "name": "Max SQL Fields",
+        "sort_order": 0,
+        "default": 25,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Number of SQL fields allowed per audience"
+      },
+      "can_be_assigned": false,
+      "subject": "sysadmin"
+    },
+    {
+      "slug": "cloudconnect_max_audiences",
+      "category": "cc_limits",
+      "value": null,
+      "field": {
+        "type": "int",
+        "label": "",
+        "name": "Account Max CloudConnect Audiences",
+        "sort_order": 0,
+        "default": 100,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Number of CloudConnect audiences allowed per account."
+      },
+      "can_be_assigned": false,
+      "subject": "sysadmin"
+    },
+    {
+      "slug": "cloudconnect_max_destinations",
+      "category": "cc_limits",
+      "value": null,
+      "field": {
+        "type": "int",
+        "label": "",
+        "name": "Account Max CloudConnect Destinations",
+        "sort_order": 0,
+        "default": 1,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Number of CloudConnect destinations allowed per account."
+      },
+      "can_be_assigned": false,
+      "subject": "sysadmin"
+    },
+    {
+      "slug": "content_allowed_params",
+      "category": "content",
+      "value": null,
+      "field": {
+        "type": "[]string",
+        "label": "",
+        "name": "Content Allowed Query Parameters",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Content List of allowed query parameters to retain during url normalization"
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "content_blacklist_domains",
+      "category": "content",
+      "value": [
+        "learn.lytics.com"
+      ],
+      "field": {
+        "type": "[]string",
+        "label": "",
+        "name": "Content domains blocklist",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "validation_exprs": [
+          "not contains(value, \"/\")"
+        ],
+        "user_config_disabled": false,
+        "description": "Content domains to ignore. i.e example.com, sub.example.com ."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "content_blacklist_paths",
+      "category": "content",
+      "value": [
+        "function(){xssdetected("
+      ],
+      "field": {
+        "type": "[]string",
+        "label": "",
+        "name": "Content paths blocklist",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Block any URL that contains a value in this list. i.e 'blog' will block any URL that contains 'blog'"
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "content_blocked_pages",
+      "category": "content",
+      "value": null,
+      "field": {
+        "type": "[]string",
+        "label": "",
+        "name": "Content blocked pages",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Block any URL with an exact match to an item in this list (including the domain, not including the protocol. i.e. www.example.com/404.html, not https://www.example.com/404.html)",
+        "allow_whitespace": true
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "content_boosted_attributes",
+      "category": "content",
+      "value": null,
+      "field": {
+        "type": "[]string",
+        "label": "",
+        "name": "Content boosted attributes",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Content list of ids/classes to boost during body extraction"
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "content_crawl_delay",
+      "category": "content",
+      "value": null,
+      "field": {
+        "type": "duration",
+        "label": "",
+        "name": "Content crawl delay",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Content crawl delay"
+      },
+      "can_be_assigned": false,
+      "subject": "sysadmin"
+    },
+    {
+      "slug": "content_created_since_date",
+      "category": "content",
+      "value": null,
+      "field": {
+        "type": "date",
+        "label": "",
+        "name": "Content created since date",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Only include content in index if created date is after specified date."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "content_custom_delimiter",
+      "category": "content",
+      "value": null,
+      "field": {
+        "type": "string",
+        "label": "",
+        "name": "Custom content properties delimiter",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Delimiter to use when parsing custom content topics on HTML meta tags."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "content_customprops",
+      "category": "content",
+      "value": null,
+      "field": {
+        "type": "[]string",
+        "label": "",
+        "name": "Content custom properties",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Content List of meta tags to include as custom topics"
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "content_directives",
+      "category": "content",
+      "value": "meta",
+      "field": {
+        "type": "string",
+        "label": "",
+        "name": "Observe robots.txt in content enrichment",
+        "sort_order": 0,
+        "default": "always",
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Observe robots.txt and meta directives. \"robotstxt\" = Observe only robots.txt directives; \"meta\" = Observe only directives in meta tags; \"none\" = Do not observe any directives."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "content_identifier_field",
+      "category": "content",
+      "value": null,
+      "field": {
+        "type": "string",
+        "label": "",
+        "name": "Content Identifier Field",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Instead of using hashed-urls aka urls a user views as content-affinity source, use this field"
+      },
+      "can_be_assigned": false,
+      "subject": "sysadmin"
+    },
+    {
+      "slug": "content_max_topics",
+      "category": "content",
+      "value": null,
+      "field": {
+        "type": "int",
+        "label": "",
+        "name": "Content Max Topics",
+        "sort_order": 0,
+        "default": 500,
+        "optional": false,
+        "editable": false,
+        "validation_exprs": [
+          "value < 3000"
+        ],
+        "user_config_disabled": false,
+        "description": "Content Maximum Topic Count"
+      },
+      "can_be_assigned": false,
+      "subject": "sysadmin"
+    },
+    {
+      "slug": "content_since_date",
+      "category": "content",
+      "value": null,
+      "field": {
+        "type": "date",
+        "label": "",
+        "name": "Content since date",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Only include content in index if enriched date is after specified date."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "content_whitelist_domains",
+      "category": "content",
+      "value": [
+        "newsweek.com",
+        "lytics.com",
+        "getlytics.com",
+        "learn.lytics.com",
+        "yogurt.io",
+        "froyo.moo",
+        "lytics.live"
+      ],
+      "field": {
+        "type": "[]string",
+        "label": "",
+        "name": "Content domains allowlist",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "validation_exprs": [
+          "not contains(value, \"/\")"
+        ],
+        "user_config_disabled": false,
+        "description": "Perform content filtering based on exact matches of domains in a URL. Any entries should include relevant subdomains."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "content_whitelist_paths",
+      "category": "content",
+      "value": null,
+      "field": {
+        "type": "[]string",
+        "label": "",
+        "name": "Content paths allowlist",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Only allow URLs that match a value in this list. ie 'blog' will only allow URLs that contains 'blog'"
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "cull_anonymous",
+      "category": "linkgrid",
+      "value": null,
+      "field": {
+        "type": "integer",
+        "label": "",
+        "name": "Days after which to cull Anonymous Users",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Delete users older than the days set that are anonymous only, contact your account manager."
+      },
+      "can_be_assigned": false,
+      "subject": "sysadmin"
+    },
+    {
+      "slug": "cull_user_filter",
+      "category": "linkgrid",
+      "value": null,
+      "field": {
+        "type": "string",
+        "label": "",
+        "name": "Cull User Segment",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Delete users that match this segment. Used to cull old/un-used entities. Contact your account manager to implement."
+      },
+      "can_be_assigned": false,
+      "subject": "sysadmin"
+    },
+    {
+      "slug": "custom_cookie_keys",
+      "category": "tag",
+      "value": null,
+      "field": {
+        "type": "[]string",
+        "label": "",
+        "name": "Custom cookie keys",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "List of cookie names to be collected at load time by the Lytics JavaScript Tag."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "custom_data_layer",
+      "category": "tag",
+      "value": null,
+      "field": {
+        "type": "[]string",
+        "label": "",
+        "name": "Custom Data Layer",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "List of variable names to be collected at load time by the Lytics JavaScript Tag."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "enforce_password_complexity",
+      "category": "security",
+      "value": true,
+      "field": {
+        "type": "boolean",
+        "label": "",
+        "name": "Enforce password complexity",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Check box to ensure users have high-password complexity."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "enforce_password_history",
+      "category": "security",
+      "value": null,
+      "field": {
+        "type": "boolean",
+        "label": "",
+        "name": "Enforce password history",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Check box to prevent re-use of same password."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "enforce_password_maxbad",
+      "category": "security",
+      "value": true,
+      "field": {
+        "type": "boolean",
+        "label": "",
+        "name": "Enforce password bad count",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Check box to lock user account if too many bad password attempts are used."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "enforce_two_factor_auth",
+      "category": "security",
+      "value": true,
+      "field": {
+        "type": "boolean",
+        "label": "",
+        "name": "Enforce two factor auth.",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Check box to ensure all users have two-factor auth."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "enrich_content_maxurls",
+      "category": "content",
+      "value": null,
+      "field": {
+        "type": "int",
+        "label": "",
+        "name": "Max Url Enrich Ct",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Max Url's to enrich"
+      },
+      "can_be_assigned": false,
+      "subject": "sysadmin"
+    },
+    {
+      "slug": "enrich_content_sources",
+      "category": "content",
+      "value": [
+        "meta",
+        "diffbot_meta",
+        "diffbot"
+      ],
+      "field": {
+        "type": "[]string",
+        "label": "",
+        "name": "Content Sources List",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Content Sources for enrichment (diffbot, facebook, etc)."
+      },
+      "can_be_assigned": false,
+      "subject": "sysadmin"
+    },
+    {
+      "slug": "entity_timeout_ms",
+      "category": "API",
+      "value": null,
+      "field": {
+        "type": "int",
+        "label": "",
+        "name": "Entity Timeout (ms)",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "validation_exprs": [
+          "value > 0"
+        ],
+        "user_config_disabled": false,
+        "description": "Max time entity-public API waits before cutting off and returning what it has."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "extract_whitelisted_topics",
+      "category": "content",
+      "value": null,
+      "field": {
+        "type": "boolean",
+        "label": "",
+        "name": "Extract allowed topics",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Enable extraction of allowed content topics from the body of the document"
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "global_pathfora_stylesheet",
+      "category": "tag",
+      "value": null,
+      "field": {
+        "type": "string",
+        "label": "",
+        "name": "Global stylesheet (CSS) URL",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "This stylesheet will be loaded for Personalization experiences and campaigns."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "inbound_event_cap",
+      "category": "internal",
+      "value": 1000000,
+      "field": {
+        "type": "int",
+        "label": "",
+        "name": "Inbound Event Cap",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Max amount of events for the given inbound event term."
+      },
+      "can_be_assigned": false,
+      "subject": "sysadmin"
+    },
+    {
+      "slug": "integrationBlacklist",
+      "category": "tag",
+      "value": [
+        "google_analytics_dimensions"
+      ],
+      "field": {
+        "type": "[]string",
+        "label": "",
+        "name": "Integration blocklist",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "List of disabled JavaScript tag based integrations such as GTM or Facebook."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "jstagversion",
+      "category": "tag",
+      "value": 3,
+      "field": {
+        "type": "int",
+        "label": "",
+        "name": "Lytics JavaScript Tag Version",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Which major version of the Lytics JavaScript tag (1,2,3). 3 is the desired version."
+      },
+      "can_be_assigned": false,
+      "subject": "sysadmin"
+    },
+    {
+      "slug": "liveramp_idl_pixel_url",
+      "category": "tag",
+      "value": null,
+      "field": {
+        "type": "string",
+        "label": "",
+        "name": "Liveramp Identity Link Pixel Url",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Full url not including query params of which pixel to load in order to begin the IDL process. Account associated with url provided must be configured to send data to Lytics properly."
+      },
+      "can_be_assigned": false,
+      "subject": "sysadmin"
+    },
+    {
+      "slug": "liveramp_idl_stream",
+      "category": "tag",
+      "value": null,
+      "field": {
+        "type": "string",
+        "label": "",
+        "name": "Liveramp Identity Link Stream",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Allows for defining a custom stream name for which Liveramp Identity Link resolution will be sent to."
+      },
+      "can_be_assigned": false,
+      "subject": "sysadmin"
+    },
+    {
+      "slug": "liveramp_to_account",
+      "category": "tag",
+      "value": null,
+      "field": {
+        "type": "string",
+        "label": "",
+        "name": "Liveramp Identity Link Send To Account Id",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "If applicable, which account to send the Identity Link and _uid match to. Used when required to keep IDL completely separate from PII in an account."
+      },
+      "can_be_assigned": false,
+      "subject": "sysadmin"
+    },
+    {
+      "slug": "logon_session_days",
+      "category": "security",
+      "value": 31,
+      "field": {
+        "type": "int",
+        "label": "",
+        "name": "Logon session days",
+        "sort_order": 0,
+        "default": 30,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Number of days a logon session is valid."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "lyseg_cookie_duration",
+      "category": "tag",
+      "value": null,
+      "field": {
+        "type": "int",
+        "label": "",
+        "name": "Jstag2 Segment Cookie Duration",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Number of minutes the ly_segs cookie that contains an individual's current audience memberships should persist. Defaults to 30 days if left blank."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "orchestrate_url_whitelist",
+      "category": "tag",
+      "value": [
+        "localhost"
+      ],
+      "field": {
+        "type": "[]string",
+        "label": "",
+        "name": "URL allowlist for Orchestrate",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "List of strings that, if matched, will result in orchestrated experiences being evaluated in place of legacy campaign variations."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "outbound_event_cap",
+      "category": "internal",
+      "value": 1000000,
+      "field": {
+        "type": "int",
+        "label": "",
+        "name": "Outbound Event Cap",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Max amount of events for the given outbound event term."
+      },
+      "can_be_assigned": false,
+      "subject": "sysadmin"
+    },
+    {
+      "slug": "password_maxage_days",
+      "category": "security",
+      "value": null,
+      "field": {
+        "type": "int",
+        "label": "",
+        "name": "Password max age",
+        "sort_order": 0,
+        "default": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Number of days before password must be changed. 0 means no max age."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "pathfora_settings",
+      "category": "tag",
+      "value": null,
+      "field": {
+        "type": "string",
+        "label": "",
+        "name": "Personalization (Pathfora SDK) Generalized Config",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "A base64 encoded representation of your generalized configuration for personalization modules. Note that your config should be converted to valid JSON before encoding."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "public_recommend",
+      "category": "content",
+      "value": true,
+      "field": {
+        "type": "boolean",
+        "label": "",
+        "name": "Allow Public Personalization API?",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Check box to allow the user profile of anonymous users to be exposed to user for personalization. Will only include allowed fields."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "schema_user_private_fields",
+      "category": "schema",
+      "value": [
+        "email"
+      ],
+      "field": {
+        "type": "[]string",
+        "label": "",
+        "name": "Private fields",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "List of fields in schema that are PII/Private and should be hidden unless explicit role allows viewing private fields."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "schema_user_promoted_fields",
+      "category": "schema",
+      "value": null,
+      "field": {
+        "type": "[]string",
+        "label": "",
+        "name": "Promoted Fields",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "List of user fields to promote in data science modeling and reporting."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "scored_tables",
+      "category": "data_science",
+      "value": null,
+      "field": {
+        "type": "[]string",
+        "label": "",
+        "name": "Scored Tables",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Set the list of tables to run scoring for."
+      },
+      "can_be_assigned": false,
+      "subject": "sysadmin"
+    },
+    {
+      "slug": "scoring_whitelist",
+      "category": "data_science",
+      "value": null,
+      "field": {
+        "type": "[]string",
+        "label": "",
+        "name": "Streams to allow for Scoring",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Scoring only looks at certain streams, add more by using this."
+      },
+      "can_be_assigned": false,
+      "subject": "sysadmin"
+    },
+    {
+      "slug": "security_session_timeout",
+      "category": "security",
+      "value": 0,
+      "field": {
+        "type": "int",
+        "label": "",
+        "name": "Logon Session Timeout Minutes",
+        "sort_order": 0,
+        "default": 0,
+        "optional": false,
+        "editable": false,
+        "validation_exprs": [
+          "value < 120"
+        ],
+        "user_config_disabled": false,
+        "description": "Number of Minutes a logon session with no-activity is valid. Default = no timeout (only session days), max = 120 minutes."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "seg_scan_private_fields",
+      "category": "schema",
+      "value": null,
+      "field": {
+        "type": "boolean",
+        "label": "",
+        "name": "Hide Private Fields",
+        "sort_order": 0,
+        "default": false,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Hide PII/Private fields from audience exports and scans initiated by users that do not have access to private fields."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "segmentml_models_max",
+      "category": "data_science",
+      "value": 25,
+      "field": {
+        "type": "int",
+        "label": "",
+        "name": "Number of SegmentML Models Allowed",
+        "sort_order": 0,
+        "default": 20,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Maximum number of SegmentML models allowed for an account"
+      },
+      "can_be_assigned": false,
+      "subject": "sysadmin"
+    },
+    {
+      "slug": "segmentml_seg_limit",
+      "category": "data_science",
+      "value": null,
+      "field": {
+        "type": "int",
+        "label": "",
+        "name": "Maximum SegmentML Segment Size",
+        "sort_order": 0,
+        "default": 20000000,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Maximum size of allowable source/target segments used in SegmentML"
+      },
+      "can_be_assigned": false,
+      "subject": "sysadmin"
+    },
+    {
+      "slug": "stripe_customer_id",
+      "category": "cc_limits",
+      "value": null,
+      "field": {
+        "type": "string",
+        "label": "",
+        "name": "Stripe Customer ID",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Customer ID used for identifying payments via Stripe"
+      },
+      "can_be_assigned": false,
+      "subject": "sysadmin"
+    },
+    {
+      "slug": "subscription_start_date",
+      "category": "internal",
+      "value": null,
+      "field": {
+        "type": "string",
+        "label": "",
+        "name": "Subscription Start Date",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "If the contract is \"annual\" this field determines the start date for the annual contract."
+      },
+      "can_be_assigned": false,
+      "subject": "sysadmin"
+    },
+    {
+      "slug": "subscription_term",
+      "category": "internal",
+      "value": "monthly",
+      "field": {
+        "type": "string",
+        "label": "",
+        "name": "Subscription Term",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Defines the term for the event caps. This may be \"monthly\" or \"annual\"."
+      },
+      "can_be_assigned": false,
+      "subject": "sysadmin"
+    },
+    {
+      "slug": "thetradedesk_partner_id",
+      "category": "tag",
+      "value": null,
+      "field": {
+        "type": "string",
+        "label": "",
+        "name": "Partner ID for The Trade Desk Cookie Sync",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "If you have The Trade Desk sync enabled, provide your partner ID here."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "topic_blacklist",
+      "category": "content",
+      "value": [
+        "Data",
+        "information",
+        "Mass media",
+        "World Wide Web",
+        "Color",
+        "Green",
+        "Grass",
+        "Gold mining",
+        "Azure (color)",
+        "Document",
+        "Image",
+        "Table stakes",
+        "Yellow",
+        "Blue",
+        "Understanding",
+        "Turquoise (color)",
+        "The Difference",
+        "Clothing",
+        "Denim",
+        "Craft",
+        "Shoe",
+        "Narrative art",
+        "Need to know",
+        "Census-designated place",
+        "Pattern",
+        "Login",
+        "Logo",
+        "personalization",
+        "customer",
+        "customer data platform",
+        "data-first marketing",
+        "Font",
+        "User Data Unification",
+        "Data-First Marketing"
+      ],
+      "field": {
+        "type": "[]string",
+        "label": "",
+        "name": "Content topic blocklist",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "Blocklisted topics will be hidden from overall content taxonomy.",
+        "allow_whitespace": true
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    },
+    {
+      "slug": "topic_whitelist",
+      "category": "content",
+      "value": [
+        "Analytics",
+        "analytics",
+        "American football",
+        "Lytics",
+        "Ad Retargeting",
+        "ad retargeting",
+        "action_item",
+        "adaptation",
+        "lytics news",
+        "Lytics News",
+        "Anna Karenina principle",
+        "Data science",
+        "Customer Data Platform"
+      ],
+      "field": {
+        "type": "[]string",
+        "label": "",
+        "name": "Content topic allowlist",
+        "sort_order": 0,
+        "optional": false,
+        "editable": false,
+        "user_config_disabled": false,
+        "description": "List of topics that are required to be in the topic graph and are candidates for content affinitiy."
+      },
+      "can_be_assigned": true,
+      "subject": "account"
+    }
+  ],
+  "message": "success",
+  "status": 200
+}
